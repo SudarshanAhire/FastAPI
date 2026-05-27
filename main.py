@@ -4,8 +4,8 @@ app = FastAPI()
 
 @app.get("/")
 def hello():
-    return {"message": "Jay Ganesh..."}
+    return {"message": "Patient Management System API"}
 
 @app.get("/welcome")
 def welcome():
-    return {"message": "Welcome to FastAPI..."}
+    return {"message": "A fully functional API to manage your patient records"}
